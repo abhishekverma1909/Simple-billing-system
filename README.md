@@ -1,7 +1,9 @@
 # Simple-billing-system
-cart=eval(input("Enter the price of your item:="))
-for item in cart:
-   if item>=500:
-      print("To place this order insurance must be required")
+cart=eval(input("Enter the price of you item:="))
+for items in cart:
+   if items>=500:
+      print("Insurance is required for this",items,"items")
       continue
-   print("Your items are", item)
+   print(items)
+else:
+   print("Thank you for shopping you item are processed")
